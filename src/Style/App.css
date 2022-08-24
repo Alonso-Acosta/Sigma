@@ -1,0 +1,48 @@
+.Wrapper{
+  width: 100vw;
+  font-family: 'Cinzel', serif;
+  position: absolute;
+
+  background: linear-gradient(150deg, #029eff,  #ffffff, #029eff);
+  background-size: 400% 300%;
+  animation: BgGradient 5s ease infinite;
+
+}
+::-webkit-scrollbar {
+  background: #ccc;
+  border-radius: 4px;
+  width: 5px;
+   /* Ocultar scroll */
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(18, 2, 235, 0.199);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:active {
+  background: rgba(18, 2, 235, 0.655);
+  display: visible;
+}
+
+*{
+  overflow-x: hidden;
+}
+h2{
+  margin-top: 20px;
+  overflow-y: hidden;
+}
+h3,h4{
+  overflow-y: hidden;
+}
+.mapa{
+  margin-left: 30vw;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 20px;
+  box-shadow: 20px 10px 5px rgba(16, 22, 179, 0.603);
+  margin-bottom: 30px;
+}
+@keyframes BgGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}

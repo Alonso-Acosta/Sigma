@@ -1,0 +1,23 @@
+
+.card{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    background-color: transparent;
+    border: none;
+}
+.card img{
+    width: 10vw;
+    margin: auto;
+    background-color: transparent;
+}
+.card img:hover{
+    width: 12vw;
+    
+}
+
+.fila{
+    margin-bottom: 4vw;
+    display: flex;
+}

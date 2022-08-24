@@ -1,0 +1,42 @@
+.Contactenoss{
+    display: flex;
+    align-items: center;
+
+}
+.Contactenoss a{
+    max-width: 40vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.buttom{
+    width: 10vw;
+    height: 30px;
+    border: 1px;
+    border-style:outset;
+    background-color: rgba(16, 21, 179, 0.783);
+    color: white;
+}
+.Formularioo{
+    padding: 2VW;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 20px 10px 5px rgba(16, 22, 179, 0.603);
+    background-color: white;
+    margin-right: 8vw;
+    margin-bottom: 30px;
+}
+input{
+    margin-top: 10px;
+    border: inset;
+    border-radius: 5px;
+}
+textarea{
+    margin-top: 10px;
+    height: 6vw;
+    border: inset;
+    border-radius: 5px;
+}

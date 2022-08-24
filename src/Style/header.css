@@ -1,0 +1,38 @@
+
+.navbar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: gainsboro;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.navbar img{
+    width: 3vw;
+}
+.textL{
+    text-decoration: none;
+    color: #21245c;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+
+}
+.itemss{
+    justify-content:right;
+    font-family: 'Cinzel', serif;
+}
+.logo{
+    margin-left: 2vw;
+    color: #21245c;
+}
+.logo img{
+    margin-right: 2vw;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
